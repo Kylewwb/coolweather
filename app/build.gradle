@@ -2,6 +2,16 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 24
+<<<<<<< HEAD
+    buildToolsVersion "24.0.2"
+
+    defaultConfig {
+        applicationId "com.coolweather.android"
+        minSdkVersion 15
+        targetSdkVersion 24
+        versionCode 2
+        versionName "1.1"
+=======
     buildToolsVersion "24.0.3"
 
     defaultConfig {
@@ -10,6 +20,7 @@ android {
         targetSdkVersion 24
         versionCode 1
         versionName "1.0"
+>>>>>>> c196794af5aa3df27ad68c035b081bb156b04a1b
     }
     buildTypes {
         release {
@@ -23,4 +34,11 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:24.2.1'
+<<<<<<< HEAD
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'org.litepal.android:core:1.3.2'
+    compile 'com.squareup.okhttp3:okhttp:3.4.1'
+    compile 'com.google.code.gson:gson:2.7'
+=======
+>>>>>>> c196794af5aa3df27ad68c035b081bb156b04a1b
 }
